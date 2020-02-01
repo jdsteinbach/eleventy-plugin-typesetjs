@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-plugin-typeset",
+  "name": "eleventy-plugin-typesetjs",
   "version": "1.0.0",
   "description": "Eleventy filter to process content with typeset.js",
   "main": ".eleventy.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdsteinbach/eleventy-plugin-typeset.git"
+    "url": "git+https://github.com/jdsteinbach/eleventy-plugin-typesetjs.git"
   },
   "keywords": [
     "eleventy",
@@ -20,9 +20,9 @@
   "author": "James Steinbach",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jdsteinbach/eleventy-plugin-typeset/issues"
+    "url": "https://github.com/jdsteinbach/eleventy-plugin-typesetjs/issues"
   },
-  "homepage": "https://github.com/jdsteinbach/eleventy-plugin-typeset#readme",
+  "homepage": "https://github.com/jdsteinbach/eleventy-plugin-typesetjs#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "typeset": "^0.2.6"
