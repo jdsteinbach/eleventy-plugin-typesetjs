@@ -3,5 +3,5 @@
 ## Install
 
 ```sh
-npm i eleventy-plugin-typeset
+npm i eleventy-plugin-typesetjs
 ```
