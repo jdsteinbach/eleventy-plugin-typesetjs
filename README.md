@@ -1,7 +1,25 @@
 # Eleventy Plugin: Typeset.js
 
-## Install
+Install from NPM
 
 ```sh
-npm i eleventy-plugin-typesetjs
+npm install --save eleventy-plugin-typesetjs
+```
+
+Add to `.eleventy.js`
+
+```js
+const pluginTypesetJS = require('eleventy-plugin-typesetjs')
+
+module.exports = eleventyConfig => {
+  eleventyConfig.addPlugin(pluginTypesetJS)
+
+  //…other code
+}
+```
+
+Use it in your templates:
+
+```njk
+{{ content | typeset }}
 ```
